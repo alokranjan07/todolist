@@ -11,7 +11,7 @@ body {
 
  
 .container {
-    width: 500px;
+    width: 400px;
     background-color:white;
     padding: 20px;
     border-radius: 10px;
@@ -64,17 +64,17 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color:antiquewhite;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 98%;
     transition: background-color 0.3s;
 }
 
 .item-list li:hover {
-    background-color: #e1f0ff;
+    background-color: goldenrod;
 }
 
 /* Task text */
