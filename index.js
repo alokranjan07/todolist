@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskList = document.querySelector('.item-list');  
  
     //default task
-     inputTasks.value="Js-study :default task";
+     inputTasks.value=" ";
 
      
     let Tasks = JSON.parse(localStorage.getItem('Tasks')) || [];
