@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTodoBtn = document.querySelector('.add-btn');
     const taskList = document.querySelector('.item-list');  
  
-    //default task
-     inputTasks.value=" ";
+    
 
      
     let Tasks = JSON.parse(localStorage.getItem('Tasks')) || [];
